@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5365B909146683D600BDD13D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5365B908146683D600BDD13D /* Cocoa.framework */; };
+		5365B913146683D600BDD13D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5365B911146683D600BDD13D /* InfoPlist.strings */; };
+		5365B915146683D600BDD13D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5365B914146683D600BDD13D /* main.m */; };
+		5365B919146683D600BDD13D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5365B917146683D600BDD13D /* Credits.rtf */; };
+		5365B91C146683D600BDD13D /* ZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5365B91B146683D600BDD13D /* ZHAppDelegate.m */; };
+		5365B91F146683D600BDD13D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5365B91D146683D600BDD13D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5365B904146683D600BDD13D /* ZeroHour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroHour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5365B908146683D600BDD13D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5365B90B146683D600BDD13D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5365B90C146683D600BDD13D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5365B90D146683D600BDD13D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5365B910146683D600BDD13D /* ZeroHour-Info.plist */ = {isa = PBXFileReference; path = "ZeroHour-Info.plist"; sourceTree = "<group>"; };
+		5365B912146683D600BDD13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5365B914146683D600BDD13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5365B916146683D600BDD13D /* ZeroHour-Prefix.pch */ = {isa = PBXFileReference; path = "ZeroHour-Prefix.pch"; sourceTree = "<group>"; };
+		5365B918146683D600BDD13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5365B91A146683D600BDD13D /* ZHAppDelegate.h */ = {isa = PBXFileReference; path = ZHAppDelegate.h; sourceTree = "<group>"; };
+		5365B91B146683D600BDD13D /* ZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAppDelegate.m; sourceTree = "<group>"; };
+		5365B91E146683D600BDD13D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5365B901146683D600BDD13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5365B909146683D600BDD13D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5365B8F9146683D500BDD13D = {
+			isa = PBXGroup;
+			children = (
+				5365B90E146683D600BDD13D /* ZeroHour */,
+				5365B907146683D600BDD13D /* Frameworks */,
+				5365B905146683D600BDD13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5365B905146683D600BDD13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5365B904146683D600BDD13D /* ZeroHour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5365B907146683D600BDD13D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5365B908146683D600BDD13D /* Cocoa.framework */,
+				5365B90A146683D600BDD13D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5365B90A146683D600BDD13D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5365B90B146683D600BDD13D /* AppKit.framework */,
+				5365B90C146683D600BDD13D /* CoreData.framework */,
+				5365B90D146683D600BDD13D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5365B90E146683D600BDD13D /* ZeroHour */ = {
+			isa = PBXGroup;
+			children = (
+				5365B91A146683D600BDD13D /* ZHAppDelegate.h */,
+				5365B91B146683D600BDD13D /* ZHAppDelegate.m */,
+				5365B91D146683D600BDD13D /* MainMenu.xib */,
+				5365B90F146683D600BDD13D /* Supporting Files */,
+			);
+			path = ZeroHour;
+			sourceTree = "<group>";
+		};
+		5365B90F146683D600BDD13D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5365B910146683D600BDD13D /* ZeroHour-Info.plist */,
+				5365B911146683D600BDD13D /* InfoPlist.strings */,
+				5365B914146683D600BDD13D /* main.m */,
+				5365B916146683D600BDD13D /* ZeroHour-Prefix.pch */,
+				5365B917146683D600BDD13D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5365B903146683D600BDD13D /* ZeroHour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5365B922146683D600BDD13D /* Build configuration list for PBXNativeTarget "ZeroHour" */;
+			buildPhases = (
+				5365B900146683D600BDD13D /* Sources */,
+				5365B901146683D600BDD13D /* Frameworks */,
+				5365B902146683D600BDD13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroHour;
+			productName = ZeroHour;
+			productReference = 5365B904146683D600BDD13D /* ZeroHour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5365B8FB146683D500BDD13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5365B8FE146683D500BDD13D /* Build configuration list for PBXProject "ZeroHour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5365B8F9146683D500BDD13D;
+			productRefGroup = 5365B905146683D600BDD13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5365B903146683D600BDD13D /* ZeroHour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5365B902146683D600BDD13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5365B913146683D600BDD13D /* InfoPlist.strings in Resources */,
+				5365B919146683D600BDD13D /* Credits.rtf in Resources */,
+				5365B91F146683D600BDD13D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5365B900146683D600BDD13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5365B915146683D600BDD13D /* main.m in Sources */,
+				5365B91C146683D600BDD13D /* ZHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5365B911146683D600BDD13D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5365B912146683D600BDD13D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5365B917146683D600BDD13D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5365B918146683D600BDD13D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5365B91D146683D600BDD13D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5365B91E146683D600BDD13D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5365B920146683D600BDD13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5365B921146683D600BDD13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5365B923146683D600BDD13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZeroHour/ZeroHour-Prefix.pch";
+				INFOPLIST_FILE = "ZeroHour/ZeroHour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5365B924146683D600BDD13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZeroHour/ZeroHour-Prefix.pch";
+				INFOPLIST_FILE = "ZeroHour/ZeroHour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5365B8FE146683D500BDD13D /* Build configuration list for PBXProject "ZeroHour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5365B920146683D600BDD13D /* Debug */,
+				5365B921146683D600BDD13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5365B922146683D600BDD13D /* Build configuration list for PBXNativeTarget "ZeroHour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5365B923146683D600BDD13D /* Debug */,
+				5365B924146683D600BDD13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5365B8FB146683D500BDD13D /* Project object */;
+}
