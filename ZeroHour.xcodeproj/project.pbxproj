@@ -13,6 +13,9 @@
 		5365B919146683D600BDD13D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5365B917146683D600BDD13D /* Credits.rtf */; };
 		5365B91C146683D600BDD13D /* ZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5365B91B146683D600BDD13D /* ZHAppDelegate.m */; };
 		5365B91F146683D600BDD13D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5365B91D146683D600BDD13D /* MainMenu.xib */; };
+		5365B9271466845600BDD13D /* ZHGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5365B9261466845600BDD13D /* ZHGLView.m */; };
+		5365B929146684C800BDD13D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5365B928146684C800BDD13D /* OpenGL.framework */; };
+		5365B92C1466930600BDD13D /* NSViewTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5365B92B1466930600BDD13D /* NSViewTexture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,19 @@
 		5365B90B146683D600BDD13D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5365B90C146683D600BDD13D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5365B90D146683D600BDD13D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5365B910146683D600BDD13D /* ZeroHour-Info.plist */ = {isa = PBXFileReference; path = "ZeroHour-Info.plist"; sourceTree = "<group>"; };
+		5365B910146683D600BDD13D /* ZeroHour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZeroHour-Info.plist"; sourceTree = "<group>"; };
 		5365B912146683D600BDD13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5365B914146683D600BDD13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5365B916146683D600BDD13D /* ZeroHour-Prefix.pch */ = {isa = PBXFileReference; path = "ZeroHour-Prefix.pch"; sourceTree = "<group>"; };
+		5365B916146683D600BDD13D /* ZeroHour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZeroHour-Prefix.pch"; sourceTree = "<group>"; };
 		5365B918146683D600BDD13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5365B91A146683D600BDD13D /* ZHAppDelegate.h */ = {isa = PBXFileReference; path = ZHAppDelegate.h; sourceTree = "<group>"; };
+		5365B91A146683D600BDD13D /* ZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAppDelegate.h; sourceTree = "<group>"; };
 		5365B91B146683D600BDD13D /* ZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAppDelegate.m; sourceTree = "<group>"; };
 		5365B91E146683D600BDD13D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5365B9251466845600BDD13D /* ZHGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGLView.h; sourceTree = "<group>"; };
+		5365B9261466845600BDD13D /* ZHGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGLView.m; sourceTree = "<group>"; };
+		5365B928146684C800BDD13D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5365B92A1466930600BDD13D /* NSViewTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSViewTexture.h; sourceTree = "<group>"; };
+		5365B92B1466930600BDD13D /* NSViewTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSViewTexture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5365B929146684C800BDD13D /* OpenGL.framework in Frameworks */,
 				5365B909146683D600BDD13D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +55,7 @@
 		5365B8F9146683D500BDD13D = {
 			isa = PBXGroup;
 			children = (
+				5365B928146684C800BDD13D /* OpenGL.framework */,
 				5365B90E146683D600BDD13D /* ZeroHour */,
 				5365B907146683D600BDD13D /* Frameworks */,
 				5365B905146683D600BDD13D /* Products */,
@@ -85,7 +95,11 @@
 				5365B91A146683D600BDD13D /* ZHAppDelegate.h */,
 				5365B91B146683D600BDD13D /* ZHAppDelegate.m */,
 				5365B91D146683D600BDD13D /* MainMenu.xib */,
+				5365B9251466845600BDD13D /* ZHGLView.h */,
+				5365B9261466845600BDD13D /* ZHGLView.m */,
 				5365B90F146683D600BDD13D /* Supporting Files */,
+				5365B92A1466930600BDD13D /* NSViewTexture.h */,
+				5365B92B1466930600BDD13D /* NSViewTexture.m */,
 			);
 			path = ZeroHour;
 			sourceTree = "<group>";
@@ -167,6 +181,8 @@
 			files = (
 				5365B915146683D600BDD13D /* main.m in Sources */,
 				5365B91C146683D600BDD13D /* ZHAppDelegate.m in Sources */,
+				5365B9271466845600BDD13D /* ZHGLView.m in Sources */,
+				5365B92C1466930600BDD13D /* NSViewTexture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +268,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZeroHour/ZeroHour-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "ZeroHour/ZeroHour-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -263,6 +280,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZeroHour/ZeroHour-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "ZeroHour/ZeroHour-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
